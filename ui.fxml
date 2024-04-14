@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="addBtn" layoutX="14.0" layoutY="299.0" mnemonicParsing="false" onAction="#addBtnClicked" text="add" />
+      <Button fx:id="removeBtn" layoutX="82.0" layoutY="299.0" mnemonicParsing="false" onAction="#removeBtnClicked" text="remove" />
+      <TextField fx:id="searchTF" layoutX="63.0" layoutY="35.0" />
+      <ListView fx:id="recListView" layoutX="17.0" layoutY="74.0" prefHeight="200.0" prefWidth="367.0" />
+      <Label layoutX="18.0" layoutY="39.0" text="Search" />
+      <Button fx:id="searchBtn" layoutX="229.0" layoutY="35.0" mnemonicParsing="false" onAction="#searchBtnClicked" text="search" />
+      <TextField fx:id="nameTF" layoutX="414.0" layoutY="74.0" />
+      <TextField fx:id="cookTF" layoutX="416.0" layoutY="134.0" />
+      <TextField fx:id="incredientsTF" layoutX="416.0" layoutY="187.0" />
+      <Label layoutX="414.0" layoutY="52.0" text="name" />
+      <Label layoutX="415.0" layoutY="108.0" text="cooking time" />
+      <Label layoutX="415.0" layoutY="165.0" text="incredients" />
+      <Button fx:id="sortBtn" layoutX="161.0" layoutY="299.0" mnemonicParsing="false" onAction="#sortBtnClicked" text="Sort" />
+   </children>
+</AnchorPane>
